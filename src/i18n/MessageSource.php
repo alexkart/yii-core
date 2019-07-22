@@ -14,7 +14,7 @@ use yii\base\Component;
  *
  * A message source stores message translations in some persistent storage.
  *
- * Child classes should override {@see loadMessages()} to provide translated messages.
+ * Child classes should override {@see MessageSource::loadMessages()} to provide translated messages.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0

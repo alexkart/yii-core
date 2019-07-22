@@ -16,7 +16,7 @@ use yii\exceptions\InvalidConfigException;
  *
  * @property MessageFormatter $messageFormatter The message formatter to be used to format message via ICU
  * message format. Note that the type of this property differs in getter and setter. See
- * {@see getMessageFormatter()} and {@see setMessageFormatter()} for details.
+ * {@see Translator::getMessageFormatter()} and {@see Translator::setMessageFormatter()} for details.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0

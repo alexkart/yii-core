@@ -33,7 +33,7 @@ class BaseIpHelper
      * Gets the IP version. Does not perform IP address validation.
      *
      * @param string $ip the valid IPv4 or IPv6 address.
-     * @return int {@see IPV4} or {@see IPV6}
+     * @return int {@see BaseIpHelper::IPV4} or {@see BaseIpHelper::IPV6}
      */
     public static function getIpVersion($ip)
     {
